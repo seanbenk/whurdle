@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Whurdle</h1>
+      <h2>where each guess is a leap 🏃‍♂️</h2>
+    </header>
+    <div class="board">
+      <div class="board-row available">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </div>
+      <div class="board-row available">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </div>
+      <div class="board-row available">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </div>
+      <div class="board-row available">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </div>
+      <div class="board-row available">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </div>
+      <div class="board-row available">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </div>
+      <span id="error-message"></span>
+    </div>
+    <div class="keyboard">
+      <div class="keyboard-row">
+        <button class="keyboard-letter" data-letter="q">q</button>
+        <button class="keyboard-letter" data-letter="w">w</button>
+        <button class="keyboard-letter" data-letter="e">e</button>
+        <button class="keyboard-letter" data-letter="r">r</button>
+        <button class="keyboard-letter" data-letter="t">t</button>
+        <button class="keyboard-letter" data-letter="y">y</button>
+        <button class="keyboard-letter" data-letter="u">u</button>
+        <button class="keyboard-letter" data-letter="i">i</button>
+        <button class="keyboard-letter" data-letter="o">o</button>
+        <button class="keyboard-letter" data-letter="p">p</button>
+      </div>
+      <div class="keyboard-row">
+        <button class="keyboard-letter" data-letter="a">a</button>
+        <button class="keyboard-letter" data-letter="s">s</button>
+        <button class="keyboard-letter" data-letter="d">d</button>
+        <button class="keyboard-letter" data-letter="f">f</button>
+        <button class="keyboard-letter" data-letter="g">g</button>
+        <button class="keyboard-letter" data-letter="h">h</button>
+        <button class="keyboard-letter" data-letter="j">j</button>
+        <button class="keyboard-letter" data-letter="k">k</button>
+        <button class="keyboard-letter" data-letter="l">l</button>
+      </div>
+      <div class="keyboard-row">
+        <button class="enter-btn">enter</button>
+        <button class="keyboard-letter" data-letter="z">z</button>
+        <button class="keyboard-letter" data-letter="x">x</button>
+        <button class="keyboard-letter" data-letter="c">c</button>
+        <button class="keyboard-letter" data-letter="v">v</button>
+        <button class="keyboard-letter" data-letter="b">b</button>
+        <button class="keyboard-letter" data-letter="n">n</button>
+        <button class="keyboard-letter" data-letter="m">m</button>
+        <button class="backspace-btn">
+          <i class="fa fa-backspace"></i>
+        </button>
+      </div>
+    </div>
+    <div class="modal hidden">
+      <div class="inner-modal">
+        <h2 class="modal-text"></h2>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
